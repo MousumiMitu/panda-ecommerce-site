@@ -1,0 +1,28 @@
+.panda-card {
+  border: none;
+  border-radius: 20px;
+}
+.panda-footer {
+  border: none;
+  background: white;
+}
+.pink-btn {
+  background-image: linear-gradient(to bottom, #ff589b 0%, #ff136f 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 9px 25px;
+}
+.pink-text {
+  color: #e83e8c;
+}
+.catagories img {
+  width: 100px;
+}
+.panda-slide .carousel-item {
+  background-color: #fceae8;
+  border-radius: 1em;
+}
+.top-margin {
+  margin-top: 90px;
+}
