@@ -1,6 +1,8 @@
 .panda-card {
   border: none;
-  border-radius: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 6px rgb(202, 201, 201);
+  padding: 10px 0;
 }
 .panda-footer {
   border: none;
@@ -12,10 +14,16 @@
   border: none;
   border-radius: 8px;
   padding: 9px 25px;
+  transition: all 0.5s ease;
+}
+.pink-btn:hover {
+  background: none;
+  border: 1px solid #ff136f;
 }
 .pink-text {
   color: #e83e8c;
 }
+
 .catagories img {
   width: 100px;
 }
@@ -25,4 +33,31 @@
 }
 .top-margin {
   margin-top: 90px;
+}
+.categories1,
+.categories2,
+.categories3 {
+  padding: 10px 1px;
+  border-radius: 10px;
+}
+.categories1 {
+  background-color: orange;
+}
+.categories2 {
+  background-color: orchid;
+}
+.categories3 {
+  background-color: blue;
+}
+#Subscribe {
+  height: 300px;
+  background-color: #fceae8;
+}
+input {
+  padding: 8px 10px;
+  outline: none;
+  border: none;
+  width: 280px;
+  border-radius: 5px;
+  margin-bottom: 10px;
 }
